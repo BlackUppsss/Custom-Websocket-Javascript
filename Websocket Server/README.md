@@ -1,6 +1,6 @@
 # 🌐 Custom WebSocket Server - Implementasi RFC 6455 dengan HTTPS
 
-Aplikasi ini adalah implementasi WebSocket server dari scratch (tanpa library eksternal) yang mengikuti spesifikasi **RFC 6455** dan menggunakan **HTTPS/WSS (WebSocket Secure)** untuk koneksi yang aman.
+Ini adalah implementasi WebSocket server dari scratch (tanpa library eksternal) yang mengikuti spesifikasi **RFC 6455** dan menggunakan **HTTPS/WSS (WebSocket Secure)** untuk koneksi yang aman.
 
 ## 📚 Tentang Protokol WebSocket (RFC 6455)
 
@@ -141,7 +141,7 @@ Buat file `.vscode/settings.json` di root project:
 
 **Cara 1: Dari VS Code**
 1. Klik kanan pada file `index.html`
-2. Pilih "Open with Live Server"
+2. Pilih "Open with Live Server" (Di VSCode pastikan anda berada di folder "Websocket Sercver")
 3. Browser akan membuka di: `https://localhost:5500`
 
 **Cara 2: Dari Command Line**
