@@ -44,6 +44,7 @@ HTTPSServer.on('upgrade', (request, socket, head) => {
     const allowedOrigin = WsMethods.isOriginAllowed(request.headers.origin);
 
     if (WsMethods.check(socket, ConnectionHeader, UpgradeHeader, method, allowedOrigin)) {
+        console.log('Upgrading to WebSocket connection...');
         WsMethods.upgradeConnection(request, socket, head);
     }
     
