@@ -1,0 +1,8 @@
+{
+    "liveServer.settings.https" : {
+        "enable": true,
+        "cert": "C:/Randy's/Bot/Websocket/Websocket Server/cert.crt",
+        "key": "C:/Randy's/Bot/Websocket/Websocket Server/cert.key",
+        "passphrase": ""
+    }
+}
